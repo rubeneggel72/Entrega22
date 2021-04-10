@@ -1,5 +1,4 @@
 const express = require('express');
-const Mensaje = require('../models/mensajes');
 const generador=require('../generador/productos')
 
 const mensajeRouter = express.Router();
